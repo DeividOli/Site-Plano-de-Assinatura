@@ -1,0 +1,192 @@
+body{
+    background-color: #4c34e0;
+    
+}
+
+.tema{
+    display: block;
+    text-align: center;
+
+    margin-top: 100px;
+    
+}
+
+h1{
+    color: #f2e4d9;
+    font-family:
+}
+
+h3{
+    color: #8672ef;
+}
+
+.container{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    align-items: baseline;
+
+
+    justify-content: center;
+    text-align: center;
+   
+    position: relative;
+    margin-top: 90px;
+
+    
+}
+
+.conteudo{
+    border-radius: 10px;
+
+    width:240px ;
+    height:415px ;
+
+    padding: 20px;
+    margin: 13px;
+
+    background-color: #ffffff;
+
+    
+}
+
+.conteudo1{
+    border-radius: 10px;
+
+    width:240px ;
+    height:450px ;
+
+    padding: 20px;
+    margin: 100px 13px 13px 13px;
+
+    background-color: #ffffff;
+
+    position: relative;
+    bottom:46px ;
+}
+
+
+.emoji{
+    width: 40px;
+}
+
+
+.letreiro{
+    color: #fce19e;
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:larger;
+    font-weight:100;
+}
+
+.preco{
+     color: #5339db;
+
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: xx-large;
+     font-weight:bolder;
+    }
+
+    p{
+        display: inline;
+    }
+
+    .simbolo-do-preco{
+        color: #6958b8;
+    }
+
+    .beneficios{
+        color: #d1d1d1;
+
+        font-family: Arial;
+        font-size:small;
+        font-style:normal;
+    }
+
+    .getstarted{
+        margin-top: 20px;
+    }
+
+
+
+
+    .cor-link{
+        position: relative;
+        top: 10px;
+
+        color:#ded3ff;
+        background-color: #4c34e0;
+
+        font-family: Arial;
+        font-weight: 600;
+        font-style: bold;
+        font-size: 13px;
+
+        padding: 15px 50px 15px 50px;
+
+        text-decoration: none;
+
+
+        
+
+
+        /*
+        color: #2f18c0;
+
+        font-family: Arial;
+        font-weight: 600;
+        font-size: 13px;
+
+        text-decoration: none;
+        */
+
+    }
+
+    .cor-link-mostpopular{
+        color:#ded3ff;
+        background-color: #4c34e0;
+
+        font-family: Arial;
+        font-weight: 600;
+        font-style: bold;
+        font-size: 13px;
+
+        padding: 15px 50px 15px 50px;
+
+        text-decoration: none;
+
+    }
+
+   
+
+    .mostpopular{
+        padding: 10px;
+
+        color: #7155c4;
+
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size:larger;
+        font-weight:100;
+        font-style: bold;
+
+
+        position: relative;
+        bottom: 20px;
+
+        
+        /*Soluciona o problema, mas sem responsividade no site.
+        
+        position:relative;
+        top: 0px;
+
+        
+        left: 50%;
+        transform: translate(-50%, 0);
+        */
+        
+        background-color: #ffe4d1;
+
+
+        
+        
+    }
